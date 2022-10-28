@@ -8,7 +8,7 @@ from airflow.models import Variable
 default_args = {
     "owner": "fulano.de.tal",
     "depends_on_past": False,
-    "email": ["fulano.de.tal@avenuecode"],
+    "email": ["fulano.de.tal@gmail.com"],
     "email_on_failure": False
 }
 
